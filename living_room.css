@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#logo{
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 129px;
+	width:100%;
+	position: absolute;
+	float: left;
+	margin: auto;
+	z-index: 9999;
+	left: -550px;
+	top: 20px;
+	}
+	
+.pic1{
+	background-image:url(images/living_roomImg/1.png);
+	margin:auto;
+	float:left;
+	margin-top:180px;
+	margin-left:50px;
+	box-shadow:10px 10px 5px #0075a6;
+	border:#999 solid;
+	width:300px;
+	height:350px;
+}
+
+

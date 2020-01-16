@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<html class=" js no-touch" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Compare Products</title>
+<link rel="icon" href="images/logo.png" />
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+ 
+    <!-- css -->
+    <link href="css/menu.css" rel="stylesheet">
+
+<!-- Start HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End HEAD section -->
+
+<link href="styleSocial.css" rel="stylesheet">
+
+<!--//compare Products-->
+<script type="text/javascript">
+function cmpr()
+{
+	var pro1 = document.getElementById("p1").value;	
+	var pro2 = document.getElementById("p2").value;
+	
+	if (pro1=="ASTRA" && pro2=="GLEBE" )
+	{
+		document.getElementById("price1").innerHTML ="Chrome plated steel";	
+		document.getElementById("price2").innerHTML ="Moulded plastic ";
+		document.getElementById("price3").innerHTML ="Rs. 5,000/-";	
+		document.getElementById("price4").innerHTML ="Rs. 8,000/-";
+		document.getElementById("IMGONE").innerHTML="<img src=images/KitchenDining/naseer/3.png>"
+		document.getElementById("IMGTWO").innerHTML="<img src=images/KitchenDining/obsession/4.png>"
+	}
+	
+	else if (pro1=="CRESCENT" && pro2=="BLACKEES")
+	{
+		document.getElementById("price1").innerHTML ="Metal and Wood";	
+		document.getElementById("price2").innerHTML ="Aluminum";
+		document.getElementById("price3").innerHTML ="Rs. 90,000";	
+		document.getElementById("price4").innerHTML ="Rs. 80,000";
+		document.getElementById("IMGONE").innerHTML="<img src=images/Outdoor/h/2.png>"
+		document.getElementById("IMGTWO").innerHTML="<img src=images/Outdoor/o/4.png>"
+	}
+
+	else if (pro1=="DUCHESS CHAIR" && pro2=="PARIS ACCENT CHAIR")
+	{
+		document.getElementById("price1").innerHTML ="Wood and Leather";	
+		document.getElementById("price2").innerHTML ="Fabric and Wood";
+		document.getElementById("price3").innerHTML ="15,000";	
+		document.getElementById("price4").innerHTML ="10,000";
+		document.getElementById("IMGONE").innerHTML="<img src=images/living_roomImg/HookerFurniture/1.png>"
+		document.getElementById("IMGTWO").innerHTML="<img src=images/living_roomImg/NaseerFurniture/2.png>"
+	}
+	else {
+		alert ("COMPARISON NOT AVAILABLE");
+		}
+	
+
+}
+
+
+</script>
+
+
+
+<body>
+
+
+<div class="logo">
+</div>
+
+<div id="head">
+</div>
+
+
+<!--Navigation Bar-->
+
+	<!-- start header -->
+	<header>	
+		<div class="container" style="margin:auto;">
+				<div class="navbar navbar-static-top">
+					<div class="navigation">
+						<nav>
+						<ul class="nav topnav bold">
+							<li><a href="index.html">HOME</a></li>
+							<li class="dropdown">
+							<a href="#">FURNITURE CATEGORIES <i class="icon-angle-down"></i></a>
+							<ul style="display: none;" class="dropdown-menu bold">
+								<li><a href="livingRoomFurniture.html">Living Room</a></li>
+								<li><a href="SleepingQuartersFurniture.html">Sleeping Quarters</a></li>
+                                <li><a href="H/Hkitchen.html">Kitchen/Dining</a></li>
+                                <li><a href="office.html">Office</a></li>
+                                <li><a href="Outdoor.html">Outdoor Living</a></li>	
+							</ul>
+							</li>
+							<li><a href="Compare_Products.html">COMPARE PRODUCTS</a></li>
+							<li><a href="Contact_Us.html">CONTACT</a></li>
+						</ul>
+						</nav>
+					</div>
+					<!-- end navigation -->
+				</div>
+			</div>
+	</header>	
+	<!-- end header -->
+	
+
+    <!-- javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+	<script src="js/custom.js"></script>
+ <!--Compare Page -->  
+    
+<br>
+
+<h1 style="margin-bottom:30px; text-align:center;font-size:48px; text-shadow:1PX 1px 0 #ede8d9; font-family:arial narrow;
+ margin-top:30px; color:#999;">Compare Products</h1>
+<table width="100" style="margin:auto; text-align:center; background-color:#333;">
+	<tr>
+    	<td>
+        	<select id="p1" style="width:200px; font-size:20px; font-family:agency fb">
+            	<option value="------------------">------------------</option>
+            	<option value="ASTRA">ASTRA</option>
+                <option value="CRESCENT">CRESCENT</option>
+                  <option value="DUCHESS CHAIR">DUCHESS CHAIR</option>
+                
+            </select>
+        </td>
+        
+        <td><input type="button" value="Compare Products" onClick="cmpr();" style="background-color:#999; font-size:20px; font-family:agency fb;"></td>
+        
+        <td>
+        	<select id="p2" style="width:200px; font-size:20px; font-family:agency fb">
+            <option value="------------------">------------------</option>
+            	<option  value="GLEBE">GLEBE</option>
+                <option  value="BLACKEES">BLACKEES</option>
+                <option  value="PARIS ACCENT CHAIR">ACCENT CHAIR</option>
+                
+            </select>
+        </td>
+        
+        
+    </tr>
+    </table>
+    
+<table width="600" height="300"  style="margin:auto; margin-top:20px;">
+<tr>
+<td  id="IMGONE"></td>
+<td></td>
+<td  id="IMGTWO"></td>
+</tr>
+
+
+
+</table>
+
+
+
+
+
+<br>
+<br><br>
+
+<table style="margin:auto; text-align:center; color:#fff; font-family:agency fb; font-size:22px; margin-top:20px;">
+	<tr>
+    	<td> </td>
+    	<td width="200" style=" padding:10px;">First Product </td>
+        <td width="200" style=" padding:10px;">Second Product </td>
+    </tr>
+    
+    	<tr>
+    	<td width="100" height="30" style="border:#999 solid; border-top:none; border-left:none;">Material</td>
+        <td style="border:#999 solid; border-top:none; border-left:none; color:#999" id="price1"></td>
+        <td style="border:#999 solid; border-top:none; border-right:none; color:#999" id="price2"></td>
+    </tr>
+    
+    	<tr>
+    	<td width="100" height="30" style="border:#999 solid; border-bottom:none; border-left:none;">Prize</td>
+        <td style="border:#999 solid; border-bottom:none; border-left:none; color:#999"" id="price3"></td>
+        <td style="border:#999 solid; border-bottom:none; border-right:none; color:#999"" id="price4"></td>
+    </tr>
+  
+
+</table>
+</div>
+ 
+<!--End Compare Page -->
+
+<hr style="width:900px; margin:auto; border-style:groove; margin-top:50px;">
+
+<div class="footer">
+<div id="social"><p class="footerText">  CONNECT WITH US!  </p> 
+<div class="social-container"> 
+		<div class="links">
+			<a href="http://twitter.com" data-type="twitter"  class="prettySocial fa fa-twitter"></a>
+
+			<a href="http://facebook.com" data-type="facebook"  class="prettySocial fa fa-facebook"></a>
+
+			<a href="https://plus.google.com" data-type="googleplus" class="prettySocial fa fa-google-plus"></a>
+			
+			<a href="https://www.pinterest.com" data-type="pinterest" class="prettySocial fa fa-pinterest"></a>
+		</div>
+
+		
+	</div>
+
+</div>
+
+<div class="footerMenu">
+<ul>
+<li><a href="index.html">Home </a> |</li> 
+<li><a href="#Imges1">Our Products </a> |</li> 
+<li><a href="Compare_Products.html">Compare Products</a>|</i>
+<li><a href="Contact_Us.html">Contact</a></li>
+</ul>
+</div>
+
+<div class="add">
+<p style="font-family:Helvetica; font-size:14px; text-align:center; font-weight:bold;">B North Rd, Mandi Mohalla Mysuru, Karnataka 570001, India</p> 
+</div>
+
+<div>
+<p style="color:#999; font-family:Helvetica; font-size:12px; text-align:center;"> Copyright © 2015–2020 Durable--Furniture, Inc. All Rights Reserved. </p>
+</div>
+</div>
+<!--End Footer Section-->
+
+</body>
+</html>
+

@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#000;
+	margin:auto;
+	background-image:url(images/back2.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.logo{
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 129px;
+	width: 30%;
+	position: relative;
+	float: left;
+	margin: auto;
+	z-index: 9;
+	top: 103px;
+	}
+
+
+#head{
+	height:150px;
+	width:auto;
+	margin:auto;
+	background-image:url(images/head.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-left:700px;
+	margin-top:10px;
+}
+
+
+#slider{
+	margin:auto;
+	height:500px;
+		
+}
+
+#imgBackground{
+	margin:auto;
+	background-image:url(images/Back.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:960px;
+	height:850px;
+}
+
+#content{
+	margin:-800px auto 0 auto;
+	height:500px;	
+}
+
+
+#AboutFurniture{
+	margin:auto;
+	height:320px;
+	width:960px;
+	color:#000;
+	padding:10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:36px;
+	text-align:center;
+	text-shadow:1px 1px #FFF;
+}
+
+#AboutUsImg{
+	margin:auto;
+	width:960px;
+	height:400px;
+	background-image:url(images/aboutUsBack.png);
+	background-position:center;
+	background-size:auto;
+	background-repeat:no-repeat;
+	}
+
+.AboutUs{
+	margin:auto;
+	width:960px;
+	padding:40px  ;
+	clear:both;
+	font-family:agency fb;
+	font-size:20px;
+	text-align:center;
+	line-height:35PX;
+	text-shadow:1px 1px #000;
+	color:#000; 
+
+	
+}
+
+#ImgCont{
+	margin:auto;
+	background-image:url(images/godrej-furniture-catalogue-344.jpg);
+	width:960px;
+	height:1000px;
+	background-size:auto;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-top:20px;
+
+}
+
+#Imges1{
+	margin:auto;
+	height:400px;
+	width:960px;
+	z-index:9999;	
+}
+
+
+#img1{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-left:110px;
+	margin-top:50px;
+	z-index:9999;
+	transform-style: preserve-3d;
+  	transition: all 1s ease-in-out;
+}
+
+#img1:hover{
+	transform:rotateY(180deg);
+}
+
+#img1 .side1 {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+#img1 .back1{
+	background:#0075a6;
+    color: #000;
+		font-family:AGENCY FB;
+	font-size:34px;
+	text-align:center;
+	margin:auto;
+	line-height:100px;
+    transform: rotateY(180deg);
+	text-shadow:2px 2px #999999;
+}
+
+
+#img2{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-left:150px;
+	margin-top:50px;
+	z-index:9999;
+	transform-style: preserve-3d;
+  	transition: all 1s ease-in-out;
+}
+#img2:hover{
+	transform:rotateY(180deg);
+}
+
+#img2 .side2 {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+#img2 .back2{
+	background:#0075a6;
+    color: #000;
+	font-family:AGENCY FB;
+	font-size:34px;
+	text-align:center;
+	margin:auto;
+	line-height:100px;
+    transform: rotateY(180deg);
+	text-shadow:2px 2px #999999;
+}
+
+
+
+#sleeping{
+	width:230px;
+	height:100px;
+	margin:auto;
+	margin-top:40px;
+	transition:ease-in-out 1s;
+}
+#sleeping:hover{
+	background-color:#0075a6;
+}
+
+#sleeping a:link {
+	text-decoration:none;
+}
+#sleeping a:visited{
+	text-decoration:none;
+}
+
+
+#Imges2{
+	margin:auto;
+	height:400px;
+	width:960px;
+	margin-top:40px;
+}
+
+#img4{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-left:110px;
+	margin-top:50px;
+	z-index:9999;
+	transform-style: preserve-3d;
+  	transition: all 1s ease-in-out;
+}
+#img4:hover{
+	transform:rotateY(180deg);
+}
+
+#img4 .side4{
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+#img4 .back4{
+	background:#0075a6;
+    color: #000;
+		font-family:AGENCY FB;
+	font-size:34px;
+	text-align:center;
+	margin:auto;
+	line-height:100px;
+    transform: rotateY(180deg);
+	text-shadow:2px 2px #999999;
+}
+
+#img5{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-left:150px;
+	margin-top:50px;
+	z-index:9999;
+	transform-style: preserve-3d;
+  	transition: all 1s ease-in-out;
+}
+#img5:hover{
+	transform:rotateY(180deg);
+}
+
+#img5 .side5 {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+#img5 .back5{
+	background:#0075a6;
+    color: #000;
+	font-family:AGENCY FB;
+	font-size:34px;
+	text-align:center;
+	margin:auto;
+	line-height:100px;
+    transform: rotateY(180deg);
+	text-shadow:2px 2px #999999;
+}
+
+
+
+
+#imgText{
+	margin-left:380px;
+	margin-top:481.5px;
+	height:50px;
+	width:200px;
+	}
+
+.map{
+	margin:auto;
+	width:960px;
+	height:600px;
+}
+.mapDes{
+	width:960px;
+	margin:auto;
+	margin-top:50px; 
+	opacity:0.4;
+	transition-property:opacity;
+	transition:ease-in-out 3s;
+}
+.mapDes:hover{
+	opacity:1;
+}
+
+.footer{
+	float:left;
+	width:100%;
+	height:400px;
+}
+
+.footerText{
+	text-shadow: 0 1px 0  #999;
+	color:#0075a6;
+	font-family:Gill Sans MT Condensed;
+	text-align:center;
+	font-size:24PX;
+	
+}
+
+#footerMenu{
+	margin:auto;
+	width:400px;
+	height:50px;
+	
+	
+}
+.footerMenu ul {
+	text-align:center;
+	padding:7px 10px 7px 10px;
+}
+
+.footerMenu ul  li{
+	list-style:none;
+	color:#FFF;
+	word-spacing:5px;
+	display:inline;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	
+}
+
+.footerMenu ul  li a:link {
+	text-decoration:none;
+	color:#fff;
+	padding:7px 10px 7px 10px;
+	
+}
+
+.footerMenu ul  li a:visited {
+	text-decoration:none;
+	color:#fff;
+	padding:7px 10px 7px 10px;
+	
+}
+.footerMenu ul li a:hover {
+	transition-duration:2s;
+    background-color:#0075a6;
+	padding:7px 10px 7px 10px;	
+}
+
+.add{
+	color:#000;
+	width:960px;
+	height:20px;
+	margin:auto;
+	background-color:#0075a6;
+}
+
